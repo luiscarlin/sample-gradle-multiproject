@@ -1,0 +1,9 @@
+// this content applies to all subprojects
+
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+}
