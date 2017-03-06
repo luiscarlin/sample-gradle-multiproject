@@ -1,0 +1,12 @@
+// Dependencies specific to core module for it to build
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+// when compiling tests, use the junit dependency
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
