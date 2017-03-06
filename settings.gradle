@@ -1,0 +1,5 @@
+# Specify the subprojects to be included in the multiproject build
+# This content has to be placed in the root (master) settings.gradle file
+
+include 'app-module'
+include 'core-module'
