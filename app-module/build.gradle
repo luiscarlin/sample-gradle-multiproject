@@ -1,0 +1,15 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+// project dependency on core-module means that building this project will
+// trigger a build of core-module
+dependencies {
+    compile 'log4j:log4j:1.2.17'
+    compile project(':core-module')
+}
+
+mainClassName = 'com.app.module.HelloWorld'
