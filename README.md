@@ -10,4 +10,13 @@ Two Modules (subprojects)
 
 ### App Module:
 - runs the application
-- Dependencies: `Core Module` and `Log4j`
+- Dependencies: `Core Module` and `Log4j'
+
+
+## Run
+
+```bash
+# List all projects in this multi-project build
+gradle projects
+
+```
