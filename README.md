@@ -17,8 +17,12 @@ Two Modules (subprojects)
 
 ```bash
 # List all projects in this multi-project build
-gradle projects
+./gradlew projects
 
-gradle run
+# List tasks available from root
+./gradlew tasks
 
+# Genererate binary distribution (with run script per OS)
+# Zip package found in <root>/app-module/distributions
+./gradlew distZip
 ```
